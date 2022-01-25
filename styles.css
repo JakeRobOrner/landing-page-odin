@@ -1,0 +1,32 @@
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+header{
+    background-color: #1F2937;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 10%;
+}
+
+.header-link{
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    padding: 0 12px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+}
