@@ -11,6 +11,10 @@ header, footer, main{
     justify-content: center;
 }
 
+main{
+    padding-bottom: 8%;
+}
+
 .logo{
     font-size: 24px;
     color: #F9FAF8;
@@ -67,4 +71,65 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 0 10%;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+
+.item{
+    height: auto;
+    width: auto; 
+    padding: 100px;
+    margin: 12px;
+    border-radius: 10px;
+    list-style-type: none;
+    border: 2px solid rgb(56, 56, 187);
+    height: 400px;
+    display: flex;
+}
+
+.gallery{
+    background-color:floralwhite;
+    align-items: center;
+    padding-bottom: 8%;
+    /* justify-content: space-between; */
+}
+
+.gallery-heading{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+    align-content: center;
+    justify-content: center;
+}
+
+.subtext{
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+img, .item{
+    width: 10%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.img-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    text-align: center;
 }
