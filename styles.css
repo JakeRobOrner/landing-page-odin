@@ -128,6 +128,7 @@ img, .item{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info{
@@ -154,4 +155,46 @@ img, .item{
     margin: 0 10%;
     padding-bottom: 10%;
     font-weight:bold;
+}
+
+.finale{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #F9FAF8;
+}
+
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 14px;
+    padding: 20px 80px;
+    margin: 5%;
+}
+
+
+#call{
+    display: flex;
+    flex-direction: column;
+}
+
+#call-main{
+    font-size: 26px;
+    color: white;
+    margin: 0;
+    padding: 10px 5px;
+}
+#call-sub{
+    margin: 0%;
+}
+.sign-up2{
+    padding: 5px 15px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 5%;
+    min-width: 80px;
+    text-align: center;
 }
